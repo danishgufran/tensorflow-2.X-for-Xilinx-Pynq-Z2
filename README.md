@@ -19,8 +19,8 @@ First load boot image for the Pynq. The boot image can be found here (http://www
   $ sudo pip3 install keras_preprocessing==1.1.0 --no-deps\
   $ sudo pip3 install -U --user six wheel mock\
   $ sudo -H pip3 install pybind11\
-  $ sudo -H pip3 install h5py==2.10.0\
-# upgrade setuptools 40.8.0 -> 52.0.0\
+  $ sudo -H pip3 install h5py==2.10.0
+# upgrade setuptools 40.8.0 -> 52.0.0
   $ sudo -H pip3 install --upgrade setuptools\
   $ wget https://github.com/danishgufran/tensorflow-2.X-for-Xilinx-Pynq-Z2/blob/main/Tensorflow%202.1%20wheel%20file\
 check you python3 version
@@ -30,7 +30,7 @@ install tensorflow
   $ sudo -H pip3 install tensorflow-2.1.0-cp36-none-linux_armv7l.whl\
 
 Check tensorflow
-  $ python\
+  $ python
 > import tensorflow\
 > print(tensorflow.__version__)\
 If the versions number shows then tensorflow has been installed and is working.
