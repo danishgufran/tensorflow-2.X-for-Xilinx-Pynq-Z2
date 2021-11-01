@@ -4,7 +4,7 @@ This tutorial focuses to successfully install tensorflow 2.X versions for Xilinx
 First load boot image for the Pynq. The boot image can be found here (http://www.pynq.io/board.html) 
 * Here the boot image of v2.6 for the Pynq z2 has been loaded.
 * # get a fresh start
-  $ sudo apt-get update
+  $ sudo apt-get update \
   $ sudo apt-get upgrade
 # remove old versions, if not placed in a virtual environment (let pip search for them)
   $ sudo pip uninstall tensorflow
@@ -22,7 +22,7 @@ First load boot image for the Pynq. The boot image can be found here (http://www
   $ sudo -H pip3 install h5py==2.10.0
 # upgrade setuptools 40.8.0 -> 52.0.0
   $ sudo -H pip3 install --upgrade setuptools
-  $ wget 
+  $ wget https://github.com/danishgufran/tensorflow-2.X-for-Xilinx-Pynq-Z2/blob/main/Tensorflow%202.1%20wheel%20file
 check you python3 version
   $ python --version
 Modify the CP according to the python version. Example if python 3.6.5 is available change cp to cp36
